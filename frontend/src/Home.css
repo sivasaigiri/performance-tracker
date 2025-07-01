@@ -1,0 +1,102 @@
+.hour-card {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 12px solid #2196F3; /* Blue ring */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 100px; /* Add vertical spacing if needed */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Text inside the ring */
+.hour-card h1 {
+    font-size: 80px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0f4ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.task-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.task-form input:focus {
+  border-color: #2196f3;
+}
+
+.submit-btn {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1976d2;
+}
+.hour-card {
+    position: relative; /* Required for absolute positioning inside */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 12px solid #93cdfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .fire-emoji {
+    position: absolute;
+    font-size: 160px;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  
+  .hour-text {
+    position: relative;
+    z-index: 1;
+    font-size: 80px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f0f0, #7f7e7e);
+    min-height: 100vh;
+  }
+  
+  
