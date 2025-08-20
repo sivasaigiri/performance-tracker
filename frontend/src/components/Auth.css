@@ -1,0 +1,88 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 50%, #ff4b2b 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.auth-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.auth-card h2 {
+  margin-bottom: 1rem;
+  color: #2575fc;
+  font-weight: 700;
+}
+
+.auth-card label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.auth-card input:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 6px rgba(37, 117, 252, 0.5);
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-btn:hover {
+  background: #6a11cb;
+  transform: scale(1.05);
+}
+
+.auth-footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-footer a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: 600;
+}
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem; /* space between fields */
+}
+
+.auth-card label {
+  margin-bottom: 0.3rem;
+}
+
+.auth-card input {
+  margin-bottom: 0; /* remove double spacing since we added gap */
+}

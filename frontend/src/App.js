@@ -1,19 +1,25 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import Tasks from './Tasks';
+import './App.css'
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from './components/Home';
+import Tasks from './components/Tasks';
+import Signup from './components/Signup';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
+
 
 function App() {
   return (
     <BrowserRouter>
-      <nav style={{ padding: 10 }}>
-        <Link to="/" style={{ marginRight: 10 }}>Home</Link>
-        <Link to="/tasks">Tasks</Link>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tasks" element={<Tasks />} />
-      </Routes>
+      <div>
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/tasks" element={<Tasks />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard/>} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }

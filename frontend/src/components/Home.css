@@ -1,0 +1,184 @@
+/* Dashboard Layout */
+.dashboard-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Hours Card */
+.hour-card {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+  padding: 30px;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.hour-card:hover {
+  transform: scale(1.05);
+}
+.fire-emoji {
+  font-size: 2.5rem;
+}
+.hour-text {
+  font-size: 3.5rem;
+  margin: 10px 0;
+}
+.hour-label {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Task Form */
+.task-form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.task-input, .hours-input {
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+}
+.task-input:focus, .hours-input:focus {
+  border-color: #ff758c;
+}
+.submit-btn {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+.submit-btn:hover {
+  background: #ff4f6f3b;
+}
+
+/* Logs Section */
+.logs-section {
+  margin-top: 20px;
+  text-align: left;
+}
+.logs-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.logs-list {
+  list-style: none;
+  padding: 0;
+}
+.log-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+  margin: 8px 0;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.log-task {
+  font-weight: 600;
+  color: #333;
+}
+.log-hours {
+  color: #ff758c;
+  font-weight: bold;
+}
+.log-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+.empty-msg {
+  color: #999;
+  font-style: italic;
+}
+
+  /* Full page container */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+  color: white;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.home-title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+/* Subtitle */
+.home-subtitle {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 40px;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+/* Buttons container */
+.home-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+/* Common button styles */
+.btn {
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Primary button */
+.btn.primary {
+  background: white;
+  color: #4f46e5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn.primary:hover {
+  transform: scale(1.05);
+  background: #f9fafb;
+}
+
+/* Secondary button */
+.btn.secondary {
+  background: #4338ca;
+  color: white;
+}
+
+.btn.secondary:hover {
+  background: #312e81;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.home-footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #f3e8ff;
+}
+
+  
+  
