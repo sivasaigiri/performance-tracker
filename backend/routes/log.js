@@ -1,7 +1,8 @@
 const express = require('express');
-const Log = require('../models/Log');
+
 const router = express.Router();
 
+const createLog = require('../controllers/logController')
 router.post('/', async (req, res) => {
   const { date, task, hours } = req.body;
   if (!date || !task || !hours) {
