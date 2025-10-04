@@ -27,7 +27,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="home-footer">
-        © {new Date().getFullYear()} Performance Tracker | Built with ❤️ by Mawa
+        © {new Date().getFullYear()} Performance Tracker | Built with ❤️ by SSG
       </footer>
     </div>
   );
