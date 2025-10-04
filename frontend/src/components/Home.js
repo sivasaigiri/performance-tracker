@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="home-container">
       {/* Title */}
-      <h1 className="home-title">Performance Tracker 🚀</h1>
+      <h1 className="home-title">Performance-Tracker 🚀</h1>
 
       {/* Subtitle */}
       <p className="home-subtitle">
